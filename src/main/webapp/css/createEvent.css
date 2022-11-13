@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(240, 228, 214);
+    margin: 50px;
+}
+
+.hname{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(5, 13, 129);
+}
+
+
+#cont{
+    padding: 40px;
+    font-size: 20px;        
+    background-color: aqua;
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 300px;
+}
+
+
+#inp ,#cont select {
+    width: 200px;
+    height: 30px;
+}
+
+.eread {  
+    padding: 40px;
+    font-size: 20px;    
+    margin-left: 100px;  
+    background-color: aqua;
+    border-radius: 20px;
+    width: 500px;   
+    background-color: lightgray;
+    
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  
+  
+  <servlet>
+    <servlet-name>CreateEventServlet</servlet-name>
+    <servlet-class>com.admin.createeventServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>CreateEventServlet</servlet-name>
+    <url-pattern>/event</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ReadEventServlet</servlet-name>
+    <servlet-class>com.admin.readeventServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ReadEventServlet</servlet-name>
+    <url-pattern>/readevent</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>DeleteEventServlet</servlet-name>
+    <servlet-class>com.admin.deleteeventServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>DeleteEventServlet</servlet-name>
+    <url-pattern>/deleteevent</url-pattern>
+  </servlet-mapping>
+  
+  
+  </web-app>
